@@ -9,5 +9,7 @@ public class Sprint {
 		this.story1=story1;
 		this.story2=story2;
 	}
-
+	
+	
+	
 }

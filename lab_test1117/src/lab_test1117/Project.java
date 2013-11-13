@@ -9,6 +9,7 @@ public class Project {
 		this.team=team;
 		this.sprint1=sprint1;
 		this.sprint2=sprint2;
+		
 	}
 
 	

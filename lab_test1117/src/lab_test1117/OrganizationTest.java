@@ -70,8 +70,10 @@ public class OrganizationTest {
 		assertEquals(4, story2.getStoryPts());
 		assertEquals(4, story4.getStoryPts());
 		assertEquals(3, story4.getPriorityNum());
-		assertEquals("As a admin i want to alunch the application", story4.getStorytask());
 		assertEquals("code the UI", task2.getTask());
+		assertEquals("As a admin i want to alunch the application", story4.getStorytask());
+		assertEquals("As a user i want to retrive data frm DBase", story2.getStorytask());
+		
 		
 		
 		
