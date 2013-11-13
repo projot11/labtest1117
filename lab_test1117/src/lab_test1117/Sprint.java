@@ -10,6 +10,9 @@ public class Sprint {
 		this.story2=story2;
 	}
 	
-	
+  public void taskAllocation()
+  {
+	  
+  }
 	
 }
