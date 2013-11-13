@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class OrganizationTest {
-
+	Organization organization;
 	teamMember productowner;
 	teamMember scrummaster;
 	teamMember programmer;
@@ -51,7 +51,6 @@ public class OrganizationTest {
 		
 		
 		
-		
 		story1 = new Story("As a user i want to use the UI",task1,task2,3,4);
 		story2 = new Story("As a user i want to retrive data frm DBase",task3,task4,3,4);
 		story3 = new Story("As a user i want to login",task5,task6,3,4);
@@ -59,6 +58,9 @@ public class OrganizationTest {
 		sprint1 = new Sprint(story1,story2);
 		sprint2 = new Sprint(story3,story4);
 		project = new Project(team,sprint1,sprint2);
+		
+		organization(project);
+		
 		
 		
 		
@@ -68,6 +70,11 @@ public class OrganizationTest {
 		
 	}
 	
+	private void organization(Project project2) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	@Test
 	public void test() {
 		assertEquals(4, task1.getHours());                          //test cases.

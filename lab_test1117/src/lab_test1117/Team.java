@@ -5,6 +5,7 @@ public class Team {
 	  teamMember scrummaster;
 	  teamMember programmer;
 	  teamMember tester;
+	  int velocity=20;
 	
 	public Team(teamMember productowner, teamMember scrummaster, teamMember programmer, teamMember tester) {
 		// TODO Auto-generated constructor stub
